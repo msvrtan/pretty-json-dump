@@ -1,0 +1,11 @@
+[package]
+name = "multithread"
+version = "0.1.0"
+authors = ["Miro Svrtan <miro@mirosvrtan.me>"]
+edition = "2018"
+
+[dependencies]
+serde = "*"
+serde_json = "*"
+scoped_threadpool = "0.1.*"
+threadpool = ""
